@@ -22,7 +22,7 @@ class UserDirectory extends React.Component {
                 {this.state.aboutShowing === true ?
                     <div>
                         <h2 className="h2 show-project-headers" >UserDirectory</h2>
-                        <p className="p" id="about"  >UserDirectory is designed generate a user friendly list from an api. Using React and MongoDB I was able to load each user into a resuable component</p>
+                        <p className="p" id="about"  >User Directory is designed generate a user friendly list from an api. Using React and MongoDB I was able to load each user into a resuable component.</p>
                         <p className="p" id="about" >Last updated..Oct 20th, 2020</p>
                         <div>
                             <button className="buttons small-buttons" onClick={this.handleChangeShowing} >Demo</button>
