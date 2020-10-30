@@ -1,7 +1,7 @@
 import React from 'react';
 import UserDirectory from '../components/UserDirectory'
-import FruitQuest from '../components/FitnessTracker'
 import WeatherDashboard from '../components/WeatherDashboard'
+import FitnessTracker from '../components/FitnessTracker';
 
 function ShowProjectContainer(props) {
 
@@ -9,7 +9,7 @@ function ShowProjectContainer(props) {
 
         <div className="one-second-animation show-project-container" >
 
-            {props.currentlyShowing === "AlwaysBalanced" ?
+            {props.currentlyShowing === "UserDirectory" ?
                 <div className="components project-containers" >
                     <UserDirectory />
                 </div>
@@ -17,15 +17,15 @@ function ShowProjectContainer(props) {
                 null
             }
 
-            {props.currentlyShowing === "FruitQuest" ?
+            {props.currentlyShowing === "FitnessTracker" ?
                 <div className="components project-containers" >
-                    <FruitQuest />
+                    <FitnessTracker />
                 </div>
                 :
                 null
             }
 
-            {props.currentlyShowing === "Gandr" ?
+            {props.currentlyShowing === "WeatherDashboard" ?
                 <div className="components project-containers" >
                     <WeatherDashboard />
                 </div>

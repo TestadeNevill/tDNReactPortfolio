@@ -9,7 +9,7 @@ function PhotoGrid() {
             <h2> Besides coding... </h2>
 
             <div className="components one-second-animation" id="photo-grid-div" >
-                {/* Need to get Scotland image */}
+
                 <div className="photo-grid-divs">
                     <p className="photo-grid-text">I'm love cities.</p>
                     <img src={require("../media/DOWCityInspo1.jpg")} alt='' className="photo-grid-photos" />
