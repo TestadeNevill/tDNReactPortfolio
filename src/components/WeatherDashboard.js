@@ -23,7 +23,7 @@ class Gandr extends React.Component {
                 {this.state.aboutShowing === true ?
                     <div>
                         <h2 className="project-div-headers h2" >Weather Dashboard</h2>
-                        <p className="p" id="about" >Weather Dashboard is a JavaScript Single Page Application, with a Rails backend which allows users to browse a range of beautiful artworks from the Metropolitan Museum of Art, and to add comments and likes to their favorite pieces.</p>
+                        <p className="p" id="about" >Weather Dashboard is a JavaScript single page application, that uses a weather api to populate current and forecasted weather based on the input of a city name.</p>
                         <button className="buttons small-buttons" onClick={this.handleChangeShowing} >Demo</button>
                         <a href="https://github.com/TestadeNevill/tDNWeatherDashboard" rel="noopener noreferrer" target="_blank" >
                             <button className="buttons small-buttons" >GitHub</button>
