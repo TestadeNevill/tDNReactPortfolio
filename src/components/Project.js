@@ -1,4 +1,5 @@
 import React from 'react';
+import github from '../media/github-icon (1).svg'
 
 function Project(props) {
 
@@ -17,13 +18,13 @@ function Project(props) {
 
             <div className="project-divs" id="UserDirectory" onClick={handleGetName} >
                 <h2 className="project-div-headers" id="UserDirectory" >User Directory</h2>
-                <p className="project-blurb" id="UserDirectory" >User Directory is designed generate a user friendly list from an api. Using React and MongoDB I was able to load each user into a resuable component.</p>
+                <p className="project-blurb" id="UserDirectory" >User Directory is designed generate a user friendly list from an api. Using React and MongoDB I was able to load each user into a resuable component neatly displaying the content. Click in the search bar to filter results by name and column.</p>
                 {/* <img src={require("../media/userdirectory.png")} alt='' className="project-screenshots" id="UserDirectory" /> */}
             </div>
 
             <div className="project-divs" id="FitnessTracker" onClick={handleGetName} >
                 <h2 className="project-div-headers" id="FitnessTracker" >Fitness Tracker</h2>
-                <p className="project-blurb" id="FitnessTracker" >Fitness Tracker tracks a users workout regime and calculates total weight and time displayed in stats. </p>
+                <p className="project-blurb" id="FitnessTracker" >View, create and track daily workouts. Log multiple exercises in a workout on a given day. Track the name, type, weight, sets, reps, and duration of exercise. Track distance traveled of cardio exercises. </p>
                 {/* <img src={require("../media/fitnesstracker.png")} alt='' className="project-screenshots" id="FitnessTracker" /> */}
             </div>
 
@@ -36,7 +37,7 @@ function Project(props) {
             <div className="project-divs">
                 <h2 className="project-div-headers">See more on GitHub</h2>
                 <a href="https://github.com/TestadeNevill" rel="noopener noreferrer" target="_blank" >
-                    <img src={require("../media/github-icon.svg")} alt='' className="icons" id="project-github-icon" />
+                    <img src={github} alt='' className="icons" id="project-github-icon" />
                 </a>
             </div>
 

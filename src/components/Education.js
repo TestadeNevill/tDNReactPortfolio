@@ -38,10 +38,10 @@ class Education extends React.Component {
                             <br></br>
                             <p className="resume-bullet-points" >Projects:</p>
                             <a href="https://github.com/TestadeNevill/tDNUserDirectory" className="indented" rel="noopener noreferrer" target="_blank" >
-                                <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> User Directory: A React and MongoDb application.</p>
+                                <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> User Directory: A React and MongoDb application used to sort through user information.</p>
                             </a>
                             <a href="https://github.com/TestadeNevill/tDNFitnessTracker" className="indented" rel="noopener noreferrer" target="_blank" >
-                                <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Fitness Tracker:  </p>
+                                <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Fitness Tracker: Create and track workout plans. Collect statistics of total time and weight.</p>
                             </a>
                             <a href="https://github.com/TestadeNevill/tDNWeatherDashboard" className="indented" rel="noopener noreferrer" target="_blank" >
                                 <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Weather Dashboard: A Javascript application that uses a weather api to populate current and forecasted weather. </p>

@@ -7,6 +7,9 @@ import ProjectsContainer from './containers/ProjectsContainer'
 import ResumeContainer from './containers/ResumeContainer'
 import Contact from './containers/ContactContainer'
 import NotFound from './components/NotFound'
+import github from './media/github-icon (1).svg'
+import linkedin from './media/linkedin-icon.svg'
+import email from './media/email.svg'
 
 class App extends React.Component {
 
@@ -60,13 +63,14 @@ class App extends React.Component {
 
           <div id="social-links-div">
             <a href="https://github.com/TestadeNevill" rel="noopener noreferrer" target="_blank" >
-              <img src={require("./media/github-icon.svg")} alt='' className="icons" />
+
+              <img src={github} alt='' className="icons" />
             </a><br></br>
             <a href="https://www.linkedin.com/in/dnicklecet/" rel="noopener noreferrer" target="_blank" >
-              <img src={require("./media/linkedin-icon.svg")} alt='' className="icons" />
+              <img src={linkedin} alt='' className="icons" />
             </a><br></br>
             <a href={`mailto:dnickle.cet@gmail.com`} >
-              <img src={require("./media/send.png")} alt='' className="icons" />
+              <img src={email} alt='' className="icons" />
             </a>
           </div>
 
