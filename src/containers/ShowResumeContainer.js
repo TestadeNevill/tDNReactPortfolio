@@ -26,14 +26,6 @@ function ShowResumeContainer(props) {
                 null
             }
 
-            {/* {props.currentlyShowing === "VolunteerExperience" ?
-                <div className="components" >
-                    <VolunteerExperience />
-                </div>
-                :
-                null
-            } */}
-
             {props.currentlyShowing === "WorkExperience" ?
                 <div className="components" >
                     <WorkExperience />

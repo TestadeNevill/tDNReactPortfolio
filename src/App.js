@@ -4,7 +4,7 @@ import './App.css';
 import AboutContainer from './containers/AboutContainer'
 import HomeContainer from './containers/HomeContainer'
 import ProjectsContainer from './containers/ProjectsContainer'
-// import ResumeContainer from './containers/ResumeContainer'
+import ResumeContainer from './containers/ResumeContainer'
 import Contact from './containers/ContactContainer'
 import NotFound from './components/NotFound'
 import github from './media/github-icon (1).svg'
@@ -34,7 +34,7 @@ class App extends React.Component {
 
   renderProjectsContainer = () => <ProjectsContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
   renderAboutContainer = () => <AboutContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
-  // renderResumeContainer = () => <ResumeContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
+  renderResumeContainer = () => <ResumeContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
 
   render() {
 
