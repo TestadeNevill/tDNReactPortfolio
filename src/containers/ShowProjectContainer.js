@@ -1,6 +1,6 @@
 import React from 'react';
-import UserDirectory from '../components/UserDirectory'
-import WeatherDashboard from '../components/WeatherDashboard'
+import BridgeMap from '../components/BridgeMap'
+import GoogleBookSearchApp from '../components/GoogleBookSearchApp'
 import FitnessTracker from '../components/FitnessTracker';
 
 function ShowProjectContainer(props) {
@@ -9,9 +9,9 @@ function ShowProjectContainer(props) {
 
         <div className="one-second-animation show-project-container" >
 
-            {props.currentlyShowing === "UserDirectory" ?
+            {props.currentlyShowing === "BridgeMap" ?
                 <div className="components project-containers" >
-                    <UserDirectory />
+                    <BridgeMap />
                 </div>
                 :
                 null
@@ -25,9 +25,9 @@ function ShowProjectContainer(props) {
                 null
             }
 
-            {props.currentlyShowing === "WeatherDashboard" ?
+            {props.currentlyShowing === "GoogleBookSearchApp" ?
                 <div className="components project-containers" >
-                    <WeatherDashboard />
+                    <GoogleBookSearchApp />
                 </div>
                 :
                 null

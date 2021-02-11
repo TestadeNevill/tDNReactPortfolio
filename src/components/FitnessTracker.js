@@ -24,7 +24,10 @@ class FitnessTracker extends React.Component {
                         <h2 className="project-div-headers h2" >Fitness Tracker</h2>
                         <p className="p" id="about" >Fitness Tracker tracks a users workout regime and calculates total weight and time displayed in stats.</p>
                         <br></br>
-                        <button className="buttons small-buttons" onClick={this.handleChangeShowing} >Demo</button>
+                        {/* <button className="buttons small-buttons" onClick={this.handleChangeShowing} >Demo</button> */}
+                        <a href="https://sleepy-fortress-97960.herokuapp.com/?id=5f98a52e4eff4500170cc32e" rel="noopener noreferrer" target="_blank" >
+                            <button className="buttons small-buttons" >Demo</button>
+                        </a>
                         <a href="https://github.com/TestadeNevill/tDNFitnessTracker" rel="noopener noreferrer" target="_blank" >
                             <button className="buttons small-buttons" >GitHub</button>
                         </a>
