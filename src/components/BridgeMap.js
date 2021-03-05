@@ -1,4 +1,5 @@
 import React from 'react';
+// import googlebooksearch from '../media/googlebooksearch.png'
 
 class BridgeMap extends React.Component {
 
@@ -20,6 +21,7 @@ class BridgeMap extends React.Component {
                 {this.state.aboutShowing === true ?
                     <div>
                         <h2 className="h2 show-project-headers" >BridgeMap</h2>
+                        {/* <img src={googlebooksearch} alt='' id="Googlescreenshot" /> */}
                         <p className="p" id="about"  >My first project out of the bootcamp. I created a Google map that can search locations and pan to the destination. In the future I plan to add Google Directions API and improve the infowindow box to display location information.</p>
                         <p className="p" id="about" >Last updated..Jan 20th, 2021</p>
                         <div>
