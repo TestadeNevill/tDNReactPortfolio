@@ -16,7 +16,7 @@ body {
 
 #navbar {
   height: 50px;
-  position: fixed;
+  position: center;
   width: 100%;
   top: 0px;
   background: #fffcdb;
@@ -242,6 +242,7 @@ body {
 
 #get-in-touch {
   width: 200px;
+  margin-bottom: 20px;
 }
 
 .small-buttons {
@@ -637,5 +638,101 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    height: 50px;
+    position: fixed;
+    width: 75%;
+    top: 0px;
+    background: #fffcdb;
+    z-index: 1;
+    min-width: 560px;
+  }
+
+  #navbar {
+    margin-left: 0;
+    text-align: left;
+  }
+  .navbar-links {
+    position: sticky;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .containers {
+    position: absolute;
+    top: 50px;
+    width: 80%;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  #home-div {
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 5px;
+    width: 75%;
+  }
+
+  #hi-there {
+    margin-left: 10px;
+  }
+  .h1 {
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0px;
+    font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+      system-ui, sans-serif;
+  }
+
+  .h2 {
+    font-size: 30px;
+    margin: 0px;
+    font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+      system-ui, sans-serif;
+  }
+
+  .h2-standard {
+    font-size: 25px;
+    margin: 0px;
+  }
+
+  .h3 {
+    font-size: 20px;
+    margin: 0%;
+  }
+
+  .h4 {
+    margin: 0%;
+  }
+
+  .h5 {
+    margin: 0%;
+  }
+
+  .p {
+    font-size: 15px;
+  }
+
+  .p#intro {
+    font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+      system-ui, sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+  #social-links-div {
+    position: fixed;
+    bottom: 350px;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    min-height: 550px;
+    width: 50px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
